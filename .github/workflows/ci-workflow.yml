@@ -6,6 +6,7 @@ on:
   pull_request:
     branches:
       - master
+      - 1.3.2-rox
 
 jobs:
   build_and_test:
