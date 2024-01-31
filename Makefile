@@ -55,6 +55,7 @@ install:
 	go install ./gogoreplace
 
 clean:
+	go mod tidy
 	go clean ./...
 
 nuke:
