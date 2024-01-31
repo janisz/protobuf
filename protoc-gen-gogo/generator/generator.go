@@ -2868,6 +2868,7 @@ func (g *Generator) generateClone(mc *msgCtx, topLevelFields []topLevelField, ma
 		switch typedField := field.(type) {
 		case *simpleField:
 			switch *typedField.protoField.Type {
+			case descriptor.FieldDescriptorProto_TYPE_GROUP: {}
 			case descriptor.FieldDescriptorProto_TYPE_MESSAGE:
 				// If repeated a repeated msg, iterate and call Clone
 				if *typedField.protoField.Label == descriptor.FieldDescriptorProto_LABEL_REPEATED {
