@@ -1,7 +1,7 @@
 # gogoprotobuf Extensions
 
 Here is an [example.proto](https://github.com/gogo/protobuf/blob/master/test/example/example.proto) which uses most of the gogoprotobuf code generation plugins.
-
+f
 Please also look at the example [Makefile](https://github.com/gogo/protobuf/blob/master/test/example/Makefile) which shows how to specify the `descriptor.proto` and `gogo.proto` in your proto_path
 
 The documentation at [http://godoc.org/github.com/gogo/protobuf/gogoproto](http://godoc.org/github.com/gogo/protobuf/gogoproto) describes the extensions made to goprotobuf in more detail.
